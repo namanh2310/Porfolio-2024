@@ -43,7 +43,7 @@ export default function About() {
             <span className="font-bold text-sky-500 text-2xl lg:text-6xl md:text-4xl">MOBILE DEVELOPER</span>
           </div>
           <div className="text-center md:text-left w-full md:w-96 pt-2">
-            <span>Hey! I'm a full-stack developer from Ho Chi Minh City, Vietnam. Passionate about building both frontend and backend solutions. Let's create something awesome together!</span>
+            <span>Hey! I&apos;m a full-stack developer from Ho Chi Minh City, Vietnam. Passionate about building both frontend and backend solutions. Let&apos;s create something awesome together!</span>
             <span className='flex gap-2 items-center'><FaPhone/>0765047739</span>
             <span className='flex gap-2 items-center'><BiMailSend/>dangnguyennamanh206@gmail.com</span>
           </div>

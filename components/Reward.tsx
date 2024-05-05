@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { FaGift, FaMedal } from 'react-icons/fa'
 
-export default function () {
+export default function Reward () {
   return (
     <div id='reward'>
     <div className="w-fit m-auto mb-16">
@@ -28,7 +28,7 @@ export default function () {
             <div className='group cursor-pointer'>
                 <p>May 2023</p>
                 <p className='group-hover:font-bold group-hover:text-highlight transition-all'>First Prize in The conference on the digital transformation capacity for Vietnamese Youth 2023</p>
-                <p>In 2023, I had opportunity to join in a scientific conference for students. My article "AiMA - An AI-Based Mobile System to Assist College Students with Math-Related Issue" won the first prize among 50+ research teams. </p>
+                <p>In 2023, I had opportunity to join in a scientific conference for students. My article &quot;AiMA - An AI-Based Mobile System to Assist College Students with Math-Related Issue&quot; won the first prize among 50+ research teams. </p>
             </div>
         </div>
 
@@ -76,7 +76,7 @@ export default function () {
             <div className='group cursor-pointer'>
                 <p>March 2024</p>
                 <p className='group-hover:font-bold group-hover:text-highlight transition-all'>Top 4 in the southern region of GDSC Hackathon 2024</p>
-                <p>Our team won fourth prize in the coding GDSC Hackathon competition in the Southern region this year with the project "Air quality monitor applying artificial intelligence".</p>
+                <p>Our team won fourth prize in the coding GDSC Hackathon competition in the Southern region this year with the project &quot;Air quality monitor applying artificial intelligence&quot;.</p>
             </div>
         </div>
 
@@ -85,7 +85,7 @@ export default function () {
             <div className='group cursor-pointer'>
                 <p>March 2024</p>
                 <p className='group-hover:font-bold group-hover:text-sky-500 transition-all'>Achieved 96 points in graduation thesis defense</p>
-                <p>During the last project defense period, I achieved 96 points, which is also the highest score in the semester's defense committee.</p>
+                <p>During the last project defense period, I achieved 96 points, which is also the highest score in the semester&apos;s defense committee.</p>
             </div>
             <Image
                 src="/pic6.png"
@@ -137,7 +137,7 @@ export default function () {
                     height={72}
                 />
                 <p>Member of</p>
-                <p>"IU Student Recruitment Campaign - IU 2020 - 2021</p>
+                <p>&quot;IU Student Recruitment Campaign&quot; - IU 2020 - 2021</p>
             </div>
         </div>
     </div>
