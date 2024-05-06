@@ -90,7 +90,7 @@ export default function Skill() {
                 className="flex flex-col justify-center items-center h-36 transform transition duration-300 ease-in-out hover:scale-110 cursor-pointer rounded-lg bg-cardbg gap-4 border-2 border-transparent hover:border-highlight"
               >
                 {skill.icon}
-                <p className="font-bold text-sm md:text-lg">{skill.skillName}</p>
+                <p className="text-white font-bold text-sm md:text-lg">{skill.skillName}</p>
               </div>
             )) 
           }
