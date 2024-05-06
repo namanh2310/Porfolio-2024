@@ -1,13 +1,20 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaFacebook, FaPhone } from 'react-icons/fa';
 import { GiMailbox } from 'react-icons/gi';
 import { BiMailSend } from 'react-icons/bi';
+import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <div id='about' className="md:flex space-y-4 md:space-y-0 items-center justify-around">
+    <motion.div 
+      id='about' 
+      className="md:flex space-y-4 md:space-y-0 items-center justify-around"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}>
       <div>
         <Image
           src="/about-img.png"
@@ -32,7 +39,7 @@ export default function About() {
         
         </div>
 
-        <div className="space-y-2">
+        <div className="md:block flex flex-col items-center space-y-2">
           <div className="text-center md:text-left">
             <span className="font-bold text-highlight text-2xl lg:text-6xl md:text-4xl">NOAH DANG</span>
           </div>
@@ -44,16 +51,16 @@ export default function About() {
           </div>
           <div className="text-center md:text-left w-full md:w-96 pt-2">
             <span>Hey! I&apos;m a full-stack developer from Ho Chi Minh City, Vietnam. Passionate about building both frontend and backend solutions. Let&apos;s create something awesome together!</span>
-            <span className='flex gap-2 items-center'><FaPhone/>0765047739</span>
-            <span className='flex gap-2 items-center'><BiMailSend/>dangnguyennamanh206@gmail.com</span>
+            <span className='flex gap-2 items-center justify-center md:justify-start'><FaPhone/>0765047739</span>
+            <span className='flex gap-2 items-center justify-center md:justify-start'><BiMailSend/>dangnguyennamanh206@gmail.com</span>
           </div>
-          <Link href="mailto:dangnguyennamanh206@gmail.com" className="w-full md:w-fit inline-block group">
+          <Link href="mailto:dangnguyennamanh206@gmail.com" className="w-fit inline-block group">
             <div className="text-center font-bold text-3xl group-hover:text-sky-500 transition-color duration-300">Contact Me 📭</div>
             <div className="w-full h-2 bg-highlight rounded-lg"></div>
             <div className="w-full h-2 bg-sky-500 translate-x-3 rounded-lg"></div>
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

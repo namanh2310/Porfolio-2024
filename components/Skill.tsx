@@ -11,13 +11,42 @@ import { GiArtificialIntelligence } from 'react-icons/gi';
 import { FaC } from 'react-icons/fa6';
 import { skills1, skills2 } from '@/reuse/skillData';
 
+const fadeLeft = {
+  initial: {
+      opacity: 0,
+      y: 100,
+      x: 100,
+      scale: 0.5, // Thêm thuộc tính scale
+      rotate: -45, // Thêm thuộc tính rotate
+  },
+  animate: {
+      opacity: 1,
+      y: 0,
+      x: 0,
+      scale: 1, // Thay đổi scale từ 0.5 thành 1 khi hiển thị hoàn toàn
+      rotate: 0, // Thay đổi rotate từ -45 về 0
+      transition: {
+          delay: 0.05,
+      }
+  }
+}
+
+
+
 export default function Skill() {
   const [isActive, setIsActive] = useState('main');
   const handleItemClick = (item:string) => {
     setIsActive(item);
   };
   return (
-    <div id="skill">
+    <motion.div id="skill"
+    variants={fadeLeft}
+    initial="initial"
+    whileInView="animate"
+    viewport={{
+        once: true
+    }}
+    >
      <div className="w-fit m-auto mb-16">
         <div className="flex gap-2 items-center">
           <IoCodeSharp size={36} />
@@ -76,6 +105,6 @@ export default function Skill() {
           }
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

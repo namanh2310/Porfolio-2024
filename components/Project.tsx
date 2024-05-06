@@ -10,13 +10,34 @@ import { SiArduino, SiFlask, SiFlutter, SiRedux, SiReduxsaga } from 'react-icons
 import { TbBrandReactNative } from 'react-icons/tb'
 import { motion } from 'framer-motion';
 
+const fadeUp = {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    animate: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.5,
+        }
+    }
+}
+
 export default function Project() {
   const [isActive, setIsActive] = useState('1');
   const handleItemClick = (item:string) => {
     setIsActive(item);
   };
   return (
-    <div id='project'>
+    <motion.div id='project'
+    variants={fadeUp}
+    initial="initial"
+    whileInView="animate"
+    viewport={{
+        once: true
+    }}
+    >
     
     <div className="w-fit m-auto mb-16">
         <div className="flex gap-2 items-center">
@@ -201,6 +222,6 @@ export default function Project() {
 
        
     </div>
-    </div>
+    </motion.div>
   )
 }

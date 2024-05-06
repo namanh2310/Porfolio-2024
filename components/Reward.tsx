@@ -1,11 +1,61 @@
+'use client'
+
 import Image from 'next/image'
 import React from 'react'
 import { FaGift, FaMedal } from 'react-icons/fa'
+import { motion } from 'framer-motion';
 
+const fadeLeft = {
+    initial: {
+        opacity: 0,
+        x: -100,
+    },
+    animate: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            delay: 0.25,
+        }
+    }
+  }
+
+  const fadeRight = {
+    initial: {
+        opacity: 0,
+        x: 100,
+    },
+    animate: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            delay: 0.25,
+        }
+    }
+  }
+
+  const fadeUp = {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    animate: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.05,
+        }
+    }
+}
 export default function Reward () {
   return (
     <div id='reward'>
-    <div className="w-fit m-auto mb-16">
+    <motion.div className="w-fit m-auto mb-16"
+    variants={fadeLeft}
+    initial="initial"
+    whileInView="animate"
+    viewport={{
+        once: true
+    }}>
         <div className="flex gap-2 items-center">
           <FaMedal size={36} />
           <h1 className="text-4xl font-bold">Rewards</h1>
@@ -13,11 +63,27 @@ export default function Reward () {
         </div>
         <div className="w-full h-2 bg-highlight rounded-lg"></div>
         <div className="w-full h-2 bg-sky-500 translate-x-3 rounded-lg"></div>
-    </div>
+    </motion.div>
 
     <div className='space-y-12'>
-        <h1 className='font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-highlight decoration-4'>Competitions</h1>
-        <div className='text-left flex flex-col md:flex-row items-center gap-4'>
+        <motion.h1 
+        className='font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-highlight decoration-4'
+        variants={fadeLeft}
+        initial="initial"
+        whileInView="animate"
+        viewport={{
+            once: true
+        }}
+        >Competitions
+        </motion.h1>
+        <motion.div className='text-left flex flex-col md:flex-row items-center gap-4'
+        variants={fadeLeft}
+        initial="initial"
+        whileInView="animate"
+        viewport={{
+            once: true
+        }}
+        >
             <Image
                 src="/pic1.png"
                 alt="About image"
@@ -30,11 +96,18 @@ export default function Reward () {
                 <p className='group-hover:font-bold group-hover:text-highlight transition-all'>First Prize in The conference on the digital transformation capacity for Vietnamese Youth 2023</p>
                 <p>In 2023, I had opportunity to join in a scientific conference for students. My article &quot;AiMA - An AI-Based Mobile System to Assist College Students with Math-Related Issue&quot; won the first prize among 50+ research teams. </p>
             </div>
-        </div>
+        </motion.div>
 
 
 
-        <div className='text-right flex flex-col-reverse md:flex-row items-center gap-4'>
+        <motion.div className='text-right flex flex-col-reverse md:flex-row items-center gap-4'
+        variants={fadeRight}
+        initial="initial"
+        whileInView="animate"
+        viewport={{
+            once: true
+        }}
+        >
             <div className='group cursor-pointer'>
                 <p>Oct 2023</p>
                 <p className='group-hover:font-bold group-hover:text-sky-500 transition-all'>Top 3 best research paper at The 7th International Student Science Forum 2023 (ISSF 2023)</p>
@@ -54,11 +127,18 @@ export default function Reward () {
                 height={240}
                 className="rounded-xl shadow-xl"
             />
-        </div>
+        </motion.div>
 
 
 
-        <div className='text-left flex flex-col md:flex-row items-center gap-4'>
+        <motion.div className='text-left flex flex-col md:flex-row items-center gap-4'
+        variants={fadeLeft}
+        initial="initial"
+        whileInView="animate"
+        viewport={{
+            once: true
+        }}
+        >
             <Image
                 src="/pic4.png"
                 alt="About image"
@@ -78,10 +158,17 @@ export default function Reward () {
                 <p className='group-hover:font-bold group-hover:text-highlight transition-all'>Top 4 in the southern region of GDSC Hackathon 2024</p>
                 <p>Our team won fourth prize in the coding GDSC Hackathon competition in the Southern region this year with the project &quot;Air quality monitor applying artificial intelligence&quot;.</p>
             </div>
-        </div>
+        </motion.div>
 
         
-        <div className='text-right flex flex-col-reverse md:flex-row items-center gap-4'>
+        <motion.div className='text-right flex flex-col-reverse md:flex-row items-center gap-4'
+        variants={fadeRight}
+        initial="initial"
+        whileInView="animate"
+        viewport={{
+            once: true
+        }}
+        >
             <div className='group cursor-pointer'>
                 <p>March 2024</p>
                 <p className='group-hover:font-bold group-hover:text-sky-500 transition-all'>Achieved 96 points in graduation thesis defense</p>
@@ -101,10 +188,17 @@ export default function Reward () {
                 height={300}
                 className="rounded-xl shadow-xl"
             />
-        </div>
+        </motion.div>
     </div>
 
-    <div className='mt-12'>
+    <motion.div className='mt-12'
+    variants={fadeUp}
+    initial="initial"
+    whileInView="animate"
+    viewport={{
+        once: true
+    }}
+    >
         <h1 className='font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-sky-500 decoration-4'>Scholarships & Activity</h1>
         <div className='mt-12 grid gird-cols-1 md:grid-cols-3 gap-4'>
             <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4'>
@@ -140,7 +234,7 @@ export default function Reward () {
                 <p>&quot;IU Student Recruitment Campaign&quot; - IU 2020 - 2021</p>
             </div>
         </div>
-    </div>
+    </motion.div>
     </div>
   )
 }
