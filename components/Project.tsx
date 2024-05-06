@@ -107,11 +107,11 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">Shopee Clone</span>
                     <span className="text-sm text-white text-center">An e-commerce web application inspired by Shopee - a popular e-commerce site in Vietnam</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <FaNodeJs size={24}/>
-                        <FaHtml5 size={24}/>
-                        <FaCss3 size={24}/>
-                        <IoLogoJavascript size={24}/>
-                        <GrMysql size={24}/>
+                        <FaNodeJs color='white' size={24}/>
+                        <FaHtml5 color='white' size={24}/>
+                        <FaCss3 color='white' size={24}/>
+                        <IoLogoJavascript color='white' size={24}/>
+                        <GrMysql color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -123,11 +123,11 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">AiMA-Math App</span>
                     <span className="text-sm text-white text-center"> AiMA: AI-based mobile system aiding college students with calculus, offering specialized math solutions for enhanced learning.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <SiFlask size={24}/>
-                        <TbBrandReactNative size={24}/>
-                        <SiRedux size={24}/>
-                        <FaPython size={24}/>
-                        <DiPostgresql size={24}/>
+                        <SiFlask color='white' size={24}/>
+                        <TbBrandReactNative color='white' size={24}/>
+                        <SiRedux color='white' size={24}/>
+                        <FaPython color='white' size={24}/>
+                        <DiPostgresql color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -139,12 +139,12 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">AiAIR - Air Monitoring</span>
                     <span className="text-sm text-white text-center"> The project involves air quality monitoring by integrating sensors and machine learning models.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <FaReact size={24}/>
-                        <SiFlutter size={24}/>
-                        <SiFlask size={24}/>
-                        <FaPython size={24}/>
-                        <SiArduino size={24}/>
-                        <DiFirebase size={24}/>
+                        <FaReact color='white' size={24}/>
+                        <SiFlutter color='white' size={24}/>
+                        <SiFlask color='white' size={24}/>
+                        <FaPython color='white' size={24}/>
+                        <SiArduino color='white' size={24}/>
+                        <DiFirebase color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -156,11 +156,11 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">iSP - Smart Parking</span>
                     <span className="text-sm text-white text-center">A software-based solution that helps manage and optimize parking in a designated area. The system includes IoT and deep learning techniques.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <FaReact size={24}/>
-                        <SiFlutter size={24}/>
-                        <SiFlask size={24}/>
-                        <FaPython size={24}/>
-                        <DiFirebase size={24}/>
+                        <FaReact color='white' size={24}/>
+                        <SiFlutter color='white' size={24}/>
+                        <SiFlask color='white' size={24}/>
+                        <FaPython color='white' size={24}/>
+                        <DiFirebase color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -172,9 +172,9 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">SBSR – Smart Bin</span>
                     <span className="text-sm text-white text-center">An intelligent waste bin activated by hand gestures, equipped with advanced waste sorting capabilities.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <SiFlask size={24}/>
-                        <FaPython size={24}/>
-                        <FaC size={24}/>
+                        <SiFlask color='white' size={24}/>
+                        <FaPython color='white' size={24}/>
+                        <FaC color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -186,8 +186,8 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">MovieApp</span>
                     <span className="text-sm text-white text-center">A movie/series website with authentication and trailer list.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <FaReact size={24}/>
-                        <SiRedux size={24}/>
+                        <FaReact color='white' size={24}/>
+                        <SiRedux color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -199,8 +199,8 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">Traffic Light</span>
                     <span className="text-sm text-white text-center">This project focuses on implementing peripherals on ATMega32 to control a vehicle autonomously based on traffic light observations.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <FaC size={24}/>
-                        <IoHardwareChip size={24}/>
+                        <FaC color='white' size={24}/>
+                        <IoHardwareChip color='white' size={24}/>
                     </div>
                 </Link>
         </div>
@@ -212,9 +212,9 @@ export default function Project() {
                     <span className="text-lg font-bold text-white">Smart Light</span>
                     <span className="text-sm text-white text-center">Manipulating leds by gestures and verbal interaction</span>
                     <div className='mt-4 w-full flex justify-evenly'>
-                        <FaPython size={24}/>
-                        <FaC size={24}/>
-                        <SiArduino size={24}/>
+                        <FaPython color='white' size={24}/>
+                        <FaC color='white' size={24}/>
+                        <SiArduino color='white' size={24}/>
                     </div>
                 </Link>
         </div>
