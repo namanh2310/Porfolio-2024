@@ -9,78 +9,78 @@ import { GiArtificialIntelligence } from 'react-icons/gi';
 
 export const skills1 = [
     {
-      icon: <FaReact size={36} />,
+      icon: <FaReact color='white' size={36} />,
       skillName: 'ReactJS',
     },
     {
-      icon: <RiNextjsFill size={36} />,
+      icon: <RiNextjsFill color='white' size={36} />,
       skillName: 'NextJS',
     },
     {
-      icon: <SiRedux size={36} />,
+      icon: <SiRedux color='white' size={36} />,
       skillName: 'Redux Saga',
     },
     {
-      icon: <TbBrandReactNative size={36} />,
+      icon: <TbBrandReactNative color='white' size={36} />,
       skillName: 'React Native',
     },
     {
-      icon: <FaHtml5 size={36} />,
+      icon: <FaHtml5 color='white' size={36} />,
       skillName: 'HTML5',
     },
     {
-      icon: <FaCss3 size={36} />,
+      icon: <FaCss3 color='white' size={36} />,
       skillName: 'CSS3',
     },
     {
-      icon: <RiTailwindCssFill size={36} />,
+      icon: <RiTailwindCssFill color='white' size={36} />,
       skillName: 'Tailwind',
     },
     {
-      icon: <FaNodeJs size={36} />,
+      icon: <FaNodeJs color='white' size={36} />,
       skillName: 'NodeJS',
     },
     {
-      icon: <SiFlask size={36} />,
+      icon: <SiFlask color='white' size={36} />,
       skillName: 'Flask',
     },
     {
-      icon: <BiLogoPostgresql size={36} />,
+      icon: <BiLogoPostgresql color='white' size={36} />,
       skillName: 'PostgreSQL',
     },
     {
-      icon: <SiMongodb size={36} />,
+      icon: <SiMongodb color='white' size={36} />,
       skillName: 'MongoDB',
     },
     {
-      icon: <SiFirebase size={36} />,
+      icon: <SiFirebase color='white' size={36} />,
       skillName: 'Firebase',
     },
   ];
 
 export  const skills2 = [
     {
-      icon: <FaPython size={36} />,
+      icon: <FaPython color='white' size={36} />,
       skillName: 'Python',
     },
     {
-      icon: <GiArtificialIntelligence size={36} />,
+      icon: <GiArtificialIntelligence color='white' size={36} />,
       skillName: 'Deep Learning',
     },
     {
-      icon: <FaRobot size={36} />,
+      icon: <FaRobot color='white' size={36} />,
       skillName: 'Machine Learning',
     },
     {
-      icon: <FaC size={36} />,
+      icon: <FaC color='white' size={36} />,
       skillName: 'C programming',
     },
     {
-      icon: <SiSmartthings size={36} />,
+      icon: <SiSmartthings color='white' size={36} />,
       skillName: 'IoT',
     },
     {
-      icon: <FaFigma size={36} />,
+      icon: <FaFigma color='white' size={36} />,
       skillName: 'Figma',
     },
   ];

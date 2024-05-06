@@ -42,7 +42,7 @@ export default function Project() {
     <div className="w-fit m-auto mb-16">
         <div className="flex gap-2 items-center">
           <FaComputer size={36} />
-          <h1 className="text-4xl font-bold">Projects</h1>
+          <h1 className="text-white text-4xl font-bold">Projects</h1>
           <FaComputerMouse size={36} />
         </div>
         <div className="w-full h-2 bg-highlight rounded-lg"></div>
@@ -53,7 +53,7 @@ export default function Project() {
         <ul className="pb-8 md:block md:col-span-2 space-y-8">
           <motion.li
             onClick={() => handleItemClick('1')}
-            className={`px-2 py-1 text-md cursor-pointer ${
+            className={`text-white px-2 py-1 text-md cursor-pointer ${
               isActive === '1' ? 'border-b-4 border-sky-500 bg-sky-500/[.1]' : ''
             }`}
             whileHover={{ scale: 1.1 }}
@@ -63,7 +63,7 @@ export default function Project() {
           </motion.li>
           <motion.li
             onClick={() => handleItemClick('2')}
-            className={`px-2 py-1 text-md cursor-pointer ${
+            className={`text-white px-2 py-1 text-md cursor-pointer ${
               isActive === '2' ? 'border-b-4 border-sky-500 bg-sky-500/[.1]' : ''
             }`}
             whileHover={{ scale: 1.1 }}
@@ -77,19 +77,19 @@ export default function Project() {
          {isActive === '1' ? (
             <>
                 <strong>Member</strong>
-                <p className=' italic'>AIoT Lab Vietnam (Aug 2023 - Now)</p>
-                <span className='content-between'>Collaborating with team members, I contribute to the successful implementation of AI and IoT projects. Through diligent research in relevant fields, I prepare to engage in conferences, journals, and scientific competitions, ensuring our work remains at the forefront of innovation.</span>
+                <p className='text-white italic'>AIoT Lab Vietnam (Aug 2023 - Now)</p>
+                <span className='text-white content-between'>Collaborating with team members, I contribute to the successful implementation of AI and IoT projects. Through diligent research in relevant fields, I prepare to engage in conferences, journals, and scientific competitions, ensuring our work remains at the forefront of innovation.</span>
             </>
          )
         : (
             <>
-                <strong>Internship</strong>
-                <p className='italic'>IMT Solutions (June 2022 - Oct 2022)</p>
+                <strong className='text-white'>Internship</strong>
+                <p className='text-white italic'>IMT Solutions (June 2022 - Oct 2022)</p>
                 <ul>
-                    <li>
+                    <li className='text-white'>
                     • Monitoring mobile applications using React Native framework. 
                     </li>
-                    <li>
+                    <li className='text-white'>
                     • Building UI based on the Figma file provided by the client. 
                     </li>
                 </ul>

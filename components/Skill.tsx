@@ -31,8 +31,6 @@ const fadeLeft = {
   }
 }
 
-
-
 export default function Skill() {
   const [isActive, setIsActive] = useState('main');
   const handleItemClick = (item:string) => {
@@ -50,7 +48,7 @@ export default function Skill() {
      <div className="w-fit m-auto mb-16">
         <div className="flex gap-2 items-center">
           <IoCodeSharp size={36} />
-          <h1 className="text-4xl font-bold">Skills</h1>
+          <h1 className="text-white text-4xl font-bold">Skills</h1>
           <IoCodeSlash size={36} />
         </div>
         <div className="w-full h-2 bg-highlight rounded-lg"></div>
@@ -61,7 +59,7 @@ export default function Skill() {
         <ul className="pb-8 md:block md:col-span-2 space-y-8">
           <motion.li
             onClick={() => handleItemClick('main')}
-            className={`px-2 py-1 text-md cursor-pointer ${
+            className={`text-white px-2 py-1 text-md cursor-pointer ${
               isActive === 'main' ? 'border-b-4 border-sky-500 bg-sky-500/[.1]' : ''
             }`}
             whileHover={{ scale: 1.1 }}
@@ -71,7 +69,7 @@ export default function Skill() {
           </motion.li>
           <motion.li
             onClick={() => handleItemClick('submain')}
-            className={`px-2 py-1 text-md cursor-pointer ${
+            className={`text-white px-2 py-1 text-md cursor-pointer ${
               isActive === 'submain' ? 'border-b-4 border-sky-500 bg-sky-500/[.1]' : ''
             }`}
             whileHover={{ scale: 1.1 }}
