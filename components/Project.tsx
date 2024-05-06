@@ -1,12 +1,12 @@
 'use client'
 import Link from 'next/link'
 import React, {useState} from 'react'
-import { DiFirebase, DiPostgresql, DiPython } from 'react-icons/di'
-import { FaCss3, FaHtml5, FaNode, FaNodeJs, FaPython, FaReact } from 'react-icons/fa'
+import { DiFirebase, DiPostgresql } from 'react-icons/di'
+import { FaCss3, FaHtml5, FaNodeJs, FaPython, FaReact } from 'react-icons/fa'
 import { FaC, FaComputer, FaComputerMouse } from 'react-icons/fa6'
 import { GrMysql } from 'react-icons/gr'
 import { IoHardwareChip, IoLogoJavascript } from 'react-icons/io5'
-import { SiArduino, SiFlask, SiFlutter, SiRedux, SiReduxsaga } from 'react-icons/si'
+import { SiArduino, SiFlask, SiFlutter, SiRedux } from 'react-icons/si'
 import { TbBrandReactNative } from 'react-icons/tb'
 import { motion } from 'framer-motion';
 
@@ -41,9 +41,9 @@ export default function Project() {
     
     <div className="w-fit m-auto mb-16">
         <div className="flex gap-2 items-center">
-          <FaComputer size={36} />
+          <FaComputer color='white' size={36} />
           <h1 className="text-white text-4xl font-bold">Projects</h1>
-          <FaComputerMouse size={36} />
+          <FaComputerMouse color='white' size={36} />
         </div>
         <div className="w-full h-2 bg-highlight rounded-lg"></div>
         <div className="w-full h-2 bg-sky-500 translate-x-3 rounded-lg"></div>
@@ -76,7 +76,7 @@ export default function Project() {
         <div className="col-span-10">
          {isActive === '1' ? (
             <>
-                <strong>Member</strong>
+                <strong color='white'>Member</strong>
                 <p className='text-white italic'>AIoT Lab Vietnam (Aug 2023 - Now)</p>
                 <span className='text-white content-between'>Collaborating with team members, I contribute to the successful implementation of AI and IoT projects. Through diligent research in relevant fields, I prepare to engage in conferences, journals, and scientific competitions, ensuring our work remains at the forefront of innovation.</span>
             </>

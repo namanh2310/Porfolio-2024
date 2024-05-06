@@ -1,14 +1,7 @@
 'use client';
 import React, { useState } from 'react';
-import { BiLogoPostgresql } from 'react-icons/bi';
-import { FaCss3, FaFigma, FaHtml5, FaNodeJs, FaPython, FaReact, FaRobot } from 'react-icons/fa';
 import { IoCodeSlash, IoCodeSharp } from 'react-icons/io5';
-import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiFirebase, SiFlask, SiMongodb, SiRedux, SiSmartthings } from 'react-icons/si';
-import { TbBrandReactNative } from 'react-icons/tb';
 import { motion } from 'framer-motion';
-import { GiArtificialIntelligence } from 'react-icons/gi';
-import { FaC } from 'react-icons/fa6';
 import { skills1, skills2 } from '@/reuse/skillData';
 
 const fadeLeft = {
@@ -47,9 +40,9 @@ export default function Skill() {
     >
      <div className="w-fit m-auto mb-16">
         <div className="flex gap-2 items-center">
-          <IoCodeSharp size={36} />
+          <IoCodeSharp color='white' size={36} />
           <h1 className="text-white text-4xl font-bold">Skills</h1>
-          <IoCodeSlash size={36} />
+          <IoCodeSlash color='white' size={36} />
         </div>
         <div className="w-full h-2 bg-highlight rounded-lg"></div>
         <div className="w-full h-2 bg-sky-500 translate-x-3 rounded-lg"></div>
@@ -87,7 +80,7 @@ export default function Skill() {
                 className="flex flex-col justify-center items-center h-36 transform transition duration-300 ease-in-out hover:scale-110 cursor-pointer rounded-lg bg-cardbg gap-4 border-2 border-transparent hover:border-highlight"
               >
                 {skill.icon}
-                <p className="font-bold text-sm md:text-lg">{skill.skillName}</p>
+                <p className="text-white font-bold text-sm md:text-lg">{skill.skillName}</p>
               </div>
             ))
           :

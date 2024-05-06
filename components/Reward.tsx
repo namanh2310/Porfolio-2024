@@ -57,9 +57,9 @@ export default function Reward () {
         once: true
     }}>
         <div className="flex gap-2 items-center">
-          <FaMedal size={36} />
+          <FaMedal color='white' size={36} />
           <h1 className="text-white text-4xl font-bold">Rewards</h1>
-          <FaGift size={36} />
+          <FaGift color='white' size={36} />
         </div>
         <div className="w-full h-2 bg-highlight rounded-lg"></div>
         <div className="w-full h-2 bg-sky-500 translate-x-3 rounded-lg"></div>
@@ -67,7 +67,7 @@ export default function Reward () {
 
     <div className='space-y-12'>
         <motion.h1 
-        className='font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-highlight decoration-4'
+        className='text-white font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-highlight decoration-4'
         variants={fadeLeft}
         initial="initial"
         whileInView="animate"
@@ -155,7 +155,7 @@ export default function Reward () {
             />
             <div className='group cursor-pointer'>
                 <p className='text-white'>March 2024</p>
-                <p className='group-hover:font-bold group-hover:text-highlight transition-all'>Top 4 in the southern region of GDSC Hackathon 2024</p>
+                <p className='text-white group-hover:font-bold group-hover:text-highlight transition-all'>Top 4 in the southern region of GDSC Hackathon 2024</p>
                 <p className='text-white'>Our team won fourth prize in the coding GDSC Hackathon competition in the Southern region this year with the project &quot;Air quality monitor applying artificial intelligence&quot;.</p>
             </div>
         </motion.div>
@@ -171,7 +171,7 @@ export default function Reward () {
         >
             <div className='group cursor-pointer'>
                 <p className='text-white'>March 2024</p>
-                <p className='group-hover:font-bold group-hover:text-sky-500 transition-all'>Achieved 96 points in graduation thesis defense</p>
+                <p className='text-white group-hover:font-bold group-hover:text-sky-500 transition-all'>Achieved 96 points in graduation thesis defense</p>
                 <p className='text-white'>During the last project defense period, I achieved 96 points, which is also the highest score in the semester&apos;s defense committee.</p>
             </div>
             <Image
@@ -199,7 +199,7 @@ export default function Reward () {
         once: true
     }}
     >
-        <h1 className='font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-sky-500 decoration-4'>Scholarships & Activity</h1>
+        <h1 className='text-white font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-sky-500 decoration-4'>Scholarships & Activity</h1>
         <div className='mt-12 grid gird-cols-1 md:grid-cols-3 gap-4'>
             <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4'>
                 <Image
