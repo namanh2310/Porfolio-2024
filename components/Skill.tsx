@@ -17,14 +17,14 @@ const fadeLeft = {
       y: 100,
       x: 100,
       scale: 0.5, // Thêm thuộc tính scale
-      rotate: -45, // Thêm thuộc tính rotate
+      // rotate: -45, // Thêm thuộc tính rotate
   },
   animate: {
       opacity: 1,
       y: 0,
       x: 0,
       scale: 1, // Thay đổi scale từ 0.5 thành 1 khi hiển thị hoàn toàn
-      rotate: 0, // Thay đổi rotate từ -45 về 0
+      // rotate: 0, // Thay đổi rotate từ -45 về 0
       transition: {
           delay: 0.05,
       }
