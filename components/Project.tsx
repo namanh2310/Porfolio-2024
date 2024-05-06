@@ -76,7 +76,7 @@ export default function Project() {
         <div className="col-span-10">
          {isActive === '1' ? (
             <>
-                <strong color='white'>Member</strong>
+                <strong className='text-white'>Member</strong>
                 <p className='text-white italic'>AIoT Lab Vietnam (Aug 2023 - Now)</p>
                 <span className='text-white content-between'>Collaborating with team members, I contribute to the successful implementation of AI and IoT projects. Through diligent research in relevant fields, I prepare to engage in conferences, journals, and scientific competitions, ensuring our work remains at the forefront of innovation.</span>
             </>
