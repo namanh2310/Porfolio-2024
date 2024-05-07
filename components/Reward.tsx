@@ -89,7 +89,7 @@ export default function Reward () {
                 alt="About image"
                 width={320}
                 height={240}
-                className=" rounded-xl shadow-xl"
+                className=" rounded-xl shadow-xl hover:scale-125 transition-all duration-500"
             />
             <div className='group cursor-pointer'>
                 <p className='text-white'>May 2023</p>
@@ -118,14 +118,14 @@ export default function Reward () {
                 alt="About image"
                 width={360}
                 height={240}
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl hover:scale-125 hover:-translate-x-12 transition-all duration-500"
             />
             <Image
                 src="/pic2.png"
                 alt="About image"
                 width={240}
                 height={240}
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl hover:scale-125 hover:translate-x-12 transition-all duration-500"
             />
         </motion.div>
 
@@ -144,14 +144,14 @@ export default function Reward () {
                 alt="About image"
                 width={280}
                 height={240}
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl hover:scale-125 hover:-translate-x-12 transition-all duration-500"
             />
             <Image
                 src="/pic5.png"
                 alt="About image"
                 width={240}
                 height={320}
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl hover:scale-125 hover:translate-x-12 transition-all duration-500"
             />
             <div className='group cursor-pointer'>
                 <p className='text-white'>March 2024</p>
@@ -179,14 +179,14 @@ export default function Reward () {
                 alt="About image"
                 width={280}
                 height={240}
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl hover:scale-125 hover:-translate-x-12 transition-all duration-500"
             />
             <Image
                 src="/pic7.png"
                 alt="About image"
                 width={380}
                 height={300}
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl hover:scale-125 hover:translate-x-12 transition-all duration-500"
             />
         </motion.div>
     </div>
@@ -201,7 +201,7 @@ export default function Reward () {
     >
         <h1 className='text-white font-bold text-center md:text-left text-2xl underline underline-offset-8 decoration-sky-500 decoration-4'>Scholarships & Activity</h1>
         <div className='mt-12 grid gird-cols-1 md:grid-cols-3 gap-4'>
-            <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4'>
+            <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4 border-2 border-transparent hover:border-sky-500 transition-all duration-500'>
                 <Image
                     src="/Logo-HCMIU.png"
                     alt="About image"
@@ -212,7 +212,7 @@ export default function Reward () {
                 <p className='text-white text-center'>International University - VNU</p>
             </div>
 
-            <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4'>
+            <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4 border-2 border-transparent hover:border-sky-500 transition-all duration-500'>
                 <Image
                     src="/Toshiba-Logo.jpg"
                     alt="About image"
@@ -223,7 +223,7 @@ export default function Reward () {
                 <p className='text-white text-center'>for VNU students</p>
             </div>
 
-            <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4'>
+            <div className='py-4 h-auto bg-cardbg flex flex-col justify-center items-center rounded-xl shadow-lg gap-4 border-2 border-transparent hover:border-sky-500 transition-all duration-500'>
                 <Image
                     src="/Logo-HCMIU.png"
                     alt="About image"

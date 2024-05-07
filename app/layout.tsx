@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="en">
-      <body className={` bg-mybg bg-[radial-gradient(#585a62,transparent_1px)] [background-size:24px_24px] ${spaceGrotesk.className}`}>
+      <body className={` bg-mybg bg-[radial-gradient(#585a62,transparent_1px)] [background-size:24px_24px] ${spaceGrotesk.className} scrollbar scrollbar-thumb-sky-100`}>
         <Navbar/>
         {children}
         <div className="h-8"></div>
