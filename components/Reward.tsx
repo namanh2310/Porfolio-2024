@@ -8,11 +8,11 @@ import { motion } from 'framer-motion';
 const fadeLeft = {
     initial: {
         opacity: 0,
-        y: -100,
+        x: '-5%',
     },
     animate: {
         opacity: 1,
-        y: 0,
+        x: 0,
         transition: {
             delay: 0.25,
         }
@@ -22,11 +22,11 @@ const fadeLeft = {
   const fadeRight = {
     initial: {
         opacity: 0,
-        y: 100,
+        x: "5%",
     },
     animate: {
         opacity: 1,
-        y: 0,
+        x: 0,
         transition: {
             delay: 0.25,
         }
