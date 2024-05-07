@@ -118,14 +118,14 @@ export default function Reward () {
                 alt="About image"
                 width={360}
                 height={240}
-                className="rounded-xl shadow-xl hover:scale-125 hover:-translate-x-12 transition-all duration-500"
+                className="rounded-xl shadow-xl hover:scale-125 md:hover:-translate-x-12 transition-all duration-500"
             />
             <Image
                 src="/pic2.png"
                 alt="About image"
                 width={240}
                 height={240}
-                className="rounded-xl shadow-xl hover:scale-125 hover:translate-x-12 transition-all duration-500"
+                className="rounded-xl shadow-xl hover:scale-125 md:hover:translate-x-12 transition-all duration-500"
             />
         </motion.div>
 
@@ -144,14 +144,14 @@ export default function Reward () {
                 alt="About image"
                 width={280}
                 height={240}
-                className="rounded-xl shadow-xl hover:scale-125 hover:-translate-x-12 transition-all duration-500"
+                className="rounded-xl shadow-xl hover:scale-125 md:hover:-translate-x-12 transition-all duration-500"
             />
             <Image
                 src="/pic5.png"
                 alt="About image"
                 width={240}
                 height={320}
-                className="rounded-xl shadow-xl hover:scale-125 hover:translate-x-12 transition-all duration-500"
+                className="rounded-xl shadow-xl hover:scale-125 md:hover:translate-x-12 transition-all duration-500"
             />
             <div className='group cursor-pointer'>
                 <p className='text-white'>March 2024</p>
@@ -179,14 +179,14 @@ export default function Reward () {
                 alt="About image"
                 width={280}
                 height={240}
-                className="rounded-xl shadow-xl hover:scale-125 hover:-translate-x-12 transition-all duration-500"
+                className="rounded-xl shadow-xl hover:scale-125 md:hover:-translate-x-12 transition-all duration-500"
             />
             <Image
                 src="/pic7.png"
                 alt="About image"
                 width={380}
                 height={300}
-                className="rounded-xl shadow-xl hover:scale-125 hover:translate-x-12 transition-all duration-500"
+                className="rounded-xl shadow-xl hover:scale-125 md:hover:translate-x-12 transition-all duration-500"
             />
         </motion.div>
     </div>
