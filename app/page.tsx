@@ -8,7 +8,7 @@ import Skill from '@/components/Skill'
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function page() {
+export default function Page() {
   const [isVisible, setIsVisible] = useState(false);
   const scrollToTop = () => {
     window.scrollTo({
