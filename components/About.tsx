@@ -55,7 +55,7 @@ export default function About() {
             <span className='text-white'>Hi there! I&apos;m a full-stack developer from Ho Chi Minh City, Vietnam. Passionate about building both frontend and backend solutions. Let&apos;s create something awesome together!</span>
             <span className='text-white flex gap-2 items-center justify-center md:justify-start'><FaPhone/>0765047739</span>
             <span className='text-white flex gap-2 items-center justify-center md:justify-start'><BiMailSend/>dangnguyennamanh206@gmail.com</span>
-            <Link href={"https://drive.google.com/file/d/1W1jtxDjm1duM2MidE3oGoyMVzKN4QWfy/view?usp=sharing"} className='text-2xl font-bold text-white flex gap-2 items-center justify-center md:justify-start hover:text-highlight trasition-all duration-300'><GrResume/>Resume</Link>
+            <Link href={"https://drive.google.com/file/d/1Fhw5PnOUbqjzRk6SBY75nweDfdwvvYVD/view?usp=sharing"} className='text-2xl font-bold text-white flex gap-2 items-center justify-center md:justify-start hover:text-highlight trasition-all duration-300'><GrResume/>Resume</Link>
           </div>
           <Link href="mailto:dangnguyennamanh206@gmail.com" className="w-fit inline-block group">
             <div className="text-white text-center font-bold text-3xl group-hover:text-sky-500 transition-color duration-300">Contact Me 📭</div>
