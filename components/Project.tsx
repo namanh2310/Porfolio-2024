@@ -168,7 +168,7 @@ export default function Project() {
         <div 
             className="relative  h-64 bg-gray-200 hover:bg-gray-300 dark:bg-gray-400 rounded-lg border-4 border-transparent overflow-hidden" 
             style={{ backgroundImage: 'url(/bin.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <Link href={""} className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/[.6]">
+                <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/[.6]">
                     <span className="text-lg font-bold text-white">SBSR – Smart Bin</span>
                     <span className="text-sm text-white text-center">An intelligent waste bin activated by hand gestures, equipped with advanced waste sorting capabilities.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
@@ -176,7 +176,7 @@ export default function Project() {
                         <FaPython color='white' size={24}/>
                         <FaC color='white' size={24}/>
                     </div>
-                </Link>
+                </div>
         </div>
 
         <div 
@@ -195,7 +195,7 @@ export default function Project() {
         <div 
             className="relative  h-64 bg-gray-200 hover:bg-gray-300 dark:bg-gray-400 rounded-lg border-4 border-transparent overflow-hidden" 
             style={{ backgroundImage: 'url(/traffic.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <Link href={"https://github.com/namanh2310/Movie-App"} className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/[.6]">
+                <Link href={"https://github.com/namanh2310/Traffic-Light"} className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/[.6]">
                     <span className="text-lg font-bold text-white">Traffic Light</span>
                     <span className="text-sm text-white text-center">This project focuses on implementing peripherals on ATMega32 to control a vehicle autonomously based on traffic light observations.</span>
                     <div className='mt-4 w-full flex justify-evenly'>
@@ -208,7 +208,7 @@ export default function Project() {
         <div 
             className="relative  h-64 bg-gray-200 hover:bg-gray-300 dark:bg-gray-400 rounded-lg border-4 border-transparent overflow-hidden" 
             style={{ backgroundImage: 'url(/light.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <Link href={"https://github.com/namanh2310/Movie-App"} className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/[.6]">
+                <Link href={"https://github.com/namanh2310/LEDs-Controller-by-Gestures"} className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-black/[.6]">
                     <span className="text-lg font-bold text-white">Smart Light</span>
                     <span className="text-sm text-white text-center">Manipulating leds by gestures and verbal interaction</span>
                     <div className='mt-4 w-full flex justify-evenly'>

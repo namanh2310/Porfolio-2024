@@ -17,7 +17,10 @@ export default function About() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}>
-      <div>
+      <motion.div
+      whileHover={{ scale: 1.15, rotate: -10}}
+      transition={{ duration: 0.25 }}
+      >
         <Image
           src="/about-img.png"
           alt="About image"
@@ -25,7 +28,7 @@ export default function About() {
           height={400}
           className="w-64 h-64 lg:min-w-96 lg:min-h-96 md:min-w-72 md:min-h-72 rounded-full hover:translate-y-1 transition transform duration-500 m-auto shadow-lg"
         />
-      </div>
+      </motion.div>
 
       <div className="flex gap-4">
         <div className="pt-2">
