@@ -46,7 +46,7 @@ export default function About() {
 
         <div className="md:block flex flex-col items-center space-y-2">
           <div className="text-center md:text-left">
-            <span className="font-bold text-highlight text-2xl lg:text-6xl md:text-4xl">NOAH DANG</span>
+            <span className="font-bold text-highlight text-2xl lg:text-6xl md:text-4xl">NAM ANH</span>
           </div>
           <div className="text-center md:text-left">
             <span className="font-bold text-sky-500 text-2xl lg:text-6xl md:text-4xl">WEB DEVELOPER</span>
