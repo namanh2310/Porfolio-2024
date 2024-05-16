@@ -94,7 +94,7 @@ export default function Reward () {
             <div className='group cursor-pointer'>
                 <p className='text-white'>May 2023</p>
                 <p className='text-white group-hover:font-bold group-hover:text-highlight transition-all'>First Prize in The conference on the digital transformation capacity for Vietnamese Youth 2023</p>
-                <p className='text-white'>In 2023, I had opportunity to join in a scientific conference for students. My article &quot;AiMA - An AI-Based Mobile System to Assist College Students with Math-Related Issue&quot; won the first prize among 50+ research teams. </p>
+                <p className='text-white text-justify-left'>In 2023, I had opportunity to join in a scientific conference for students. My article &quot;AiMA - An AI-Based Mobile System to Assist College Students with Math-Related Issue&quot; won the first prize among 50+ research teams. </p>
             </div>
         </motion.div>
 
@@ -111,7 +111,7 @@ export default function Reward () {
             <div className='group cursor-pointer'>
                 <p className='text-white'>Oct 2023</p>
                 <p className='text-white group-hover:font-bold group-hover:text-sky-500 transition-all'>Top 3 best research paper at The 7th International Student Science Forum 2023 (ISSF 2023)</p>
-                <p className='text-white'>I am one of 40 delegates participating in the international science student forum in 2023. With my scientific research, I was selected as one of the 3 best reports among the 100 participating teams.</p>
+                <p className='text-white text-justify-right'>I am one of 40 delegates participating in the international science student forum in 2023. With my scientific research, I was selected as one of the 3 best reports among the 100 participating teams.</p>
             </div>
             <Image
                 src="/pic3.jpg"
@@ -156,7 +156,7 @@ export default function Reward () {
             <div className='group cursor-pointer'>
                 <p className='text-white'>March 2024</p>
                 <p className='text-white group-hover:font-bold group-hover:text-highlight transition-all'>Top 4 in the southern region of GDSC Hackathon 2024</p>
-                <p className='text-white'>Our team won fourth prize in the coding GDSC Hackathon competition in the Southern region this year with the project &quot;Air quality monitor applying artificial intelligence&quot;.</p>
+                <p className='text-white text-justify-left'>Our team won fourth prize in the coding GDSC Hackathon competition in the Southern region this year with the project &quot;Air quality monitor applying artificial intelligence&quot;.</p>
             </div>
         </motion.div>
 
@@ -172,7 +172,7 @@ export default function Reward () {
             <div className='group cursor-pointer'>
                 <p className='text-white'>March 2024</p>
                 <p className='text-white group-hover:font-bold group-hover:text-sky-500 transition-all'>Achieved 96 points in graduation thesis defense</p>
-                <p className='text-white'>During the last project defense period, I achieved 96 points, which is also the highest score in the semester&apos;s defense committee.</p>
+                <p className='text-white text-justify-right'>During the last project defense period, I achieved 96 points, which is also the highest score in the semester&apos;s defense committee.</p>
             </div>
             <Image
                 src="/pic6.png"
